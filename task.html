@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+    nav{
+        padding: auto;
+        display: flex;
+        list-style: none;
+    }
+    .nav1{
+        padding-left: 30px;
+        width: 50%;
+        font-weight: 200;
+        font-size: 30px;
+    }
+    .nav2{
+        display: flex;
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+    .nav2 li{
+        padding-left: 100px;
+        font-size: 24px;
+    }
+    .part2{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #part2text{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .new h1{
+        text-align: center;
+        padding-right: 50px;
+    }
+    .new{
+        height: 15vh;
+        width: 30vh;
+        border: 1px solid black;
+        text-align: right;
+        margin-left: 200px;
+
+    }
+
+    #part2img{
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    #part2img img{
+        width: 60%;
+    }
+    .part3{ 
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    #form button{
+        text-align: right;
+    }
+    #form input {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    #text{
+        width: 50%;
+        text-align: center;
+    }
+    #form{
+        padding-top: 30px;
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+        position: relative;
+    }
+    #headi{
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        margin: auto;
+        margin-top: -40px;
+        margin-left:300px;
+        background-color: white;
+    }
+</style>
+<body>
+    <main>
+        <nav>
+            <div class="nav1"><li style="font-size: larger;  padding:5px;">Logo</li></div>
+            <div class="nav2">
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </div>
+        </nav>
+        <div class="part2">
+            <div id="part2text">
+                <div class="new"><h1>Kreativan</h1>
+                    <button type="button">Button</button></div>        
+            </div>
+            <div id="part2img">
+                <img src="https://th.bing.com/th/id/OIP.Y7D01i9fexHM_lz4YEAIIQHaHa?rs=1&pid=ImgDetMain" alt="img">
+            </div>
+        </div>
+        <div class="part3">
+            <div id="text">
+                <h1>Welcome to Kreativan</h1>
+            </div>
+            <div id="form">
+                <form action="" method="post">
+                    <h4 id="headi">this is  form</h4>
+                    Name<input type="text" name="" id="">
+                    Contact <input type="tel" name="contact" id="contact">
+                   Adress <br> <textarea name="adress" id="adress" cols="0" rows=""></textarea>
+                   <br>
+                   <button type="submit" style="">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
