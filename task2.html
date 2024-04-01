@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li:hover{
+        color:aqua
+    }
+    nav ul li{
+        margin-right: 30px;
+
+    }
+    nav button{
+        margin: 5px 15px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px 10px 10px 1px;
+        padding:0 20px;
+        font-weight: bold;
+    }
+    #div2 h2{
+        font-size: 40px;
+        font-weight: 700;
+        margin:60px 60px;
+        text-align: center;
+    }
+    #part2{
+        padding: 80px 80px;
+    }
+    #div3{
+        display: flex;
+        gap: 10px;
+    }
+    #div4{
+        font-size: 16pt;
+        line-height: 1.67;
+    }
+    #div5{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+        padding-bottom: 120px;
+    }
+    #div5 img{
+        width: 150px;
+        opacity: 0.5;
+    }
+    #div5 img:hover{
+        opacity: 1;
+    }
+    #div6{
+        display: flex;
+        position: relative;
+    }
+    #faq{
+        background-color: rgb(34, 114, 251);
+        z-index: 5;
+        margin-left: 30px;
+        border-radius: 10px;
+        top:0;
+        left:0;
+    }
+    #faqimg{
+        z-index: 4;
+        text-align: right;
+        margin-left: -100px;
+        margin-top: -100px;
+        top:0;
+        right:0;
+        position: absolute;
+    }
+    #faq1{
+        justify-content: center;
+        align-items: center;
+    }
+    #faq1 h3 {
+        background-color: aliceblue;
+        margin: 40px 60px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .faqa{
+        display: none;
+        color: white;
+        margin: 40px 60px;
+    }
+    #div7{
+        display: flex;
+        gap: 6px;
+        padding: 100px 100px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #div8{
+        font-size: 18pt;
+        line-height: 1.67;
+    }
+    #div9{
+        margin: 80px ;
+        background-color: aliceblue;
+        padding: 0 70px;
+    }
+    .cont{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .card{
+        height: 40vh;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+    .card img{
+        height:40vh;
+        width: 40vh;
+        gap: 20px;
+        border-radius: 10px;
+    }
+    .into{
+        position: absolute;
+        height: 10vh;
+        width: 40vh;
+        bottom: -2550px;
+        background-color: rgba(0, 0, 0, 0.363);
+        color: white;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    .into p{
+        display: none;
+    }
+    .card:hover p{
+        display: block;
+    }
+    .card:hover .into{
+        height: 40vh;
+    }
+    #div20 {
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 60px;
+    }
+    .div21{
+        margin: 40px ;
+    }
+    .div21 h3{
+        color:rgb(39, 158, 244)
+    }
+</style>
+<body>
+    <nav>
+        <img src="https://kreativantech.com/wp-content/uploads/2023/08/kreativan5-01.png" alt="" style="width: 20%; height:20%">
+        <ul>
+           <li>HOME</li>
+           <li>ABOUT US</li>
+           <li>SERVICES</li>
+           <li>TRAINING</li>
+           <li>PLACEMENT DRIVE</li> 
+        </ul>
+        <img src="./magnifying-glass-solid.svg" alt="" style="width:3vh;margin-right:-90px ">
+        <button>REGISTRATION FORM</button>
+    </nav>
+    <div id="div2">
+        <h2>A Digital Marketing Company in Chandigarh with a Difference and Proven Expertise.</h2>
+    </div>
+    <div id="part2" style="background-color: rgba(169, 184, 195, 0.149);">
+        <div id="div3">
+            <div style="width: 50%;"> <img src="https://kreativantech.com/wp-content/uploads/2023/09/php_11zon.jpg" alt="" style="width: 80%;border-radius:5px 5px 5px 65px;"></div>
+            <div id="div4" style="width: 50%;">
+                <p>At Kreativan Technologies, we help small & midsize business enterprises across the globe, get the desired ROI through our bespoke web and allied services. The whole idea is to reach out to a wider audience locally or globally, and convert prospects to new customers. The bottomline is to increase conversion rate, visitor footfalls, traffic, sales, revenue, leads and new subscribers for any organization, across the board.</p>
+                <p>
+                    As the best digital marketing agency, we’ve mastered the art of website design, development and optimization; thanks to our highly professional team of qualified web designers & developers, web analysts, SEO strategists, IT experts and digital marketers that leave no stone unturned in bolstering a site’s overall performance
+                </p>
+            </div>
+         </div>
+         <div id="div5">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/wAP-01-scaled.jpg" alt="">
+           <img src="https://kreativantech.com/wp-content/uploads/2023/08/vector-01-01-scaled.jpg" alt="">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/Android-01-scaled.jpg" alt="">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/google-01-scaled.jpg" alt="">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/ios-01-1-scaled.jpg" alt="">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/seo-01-scaled.jpg" alt="">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/08/training-01-scaled.jpg" alt="">
+         </div>
+        </div>
+    <div id="div6">
+        <div id="faq" style="width: 50%;">
+           <div id="faq1">
+            <h1 style="margin: 50px 80px ; color:aqua;">FAQ</h1>
+            <h3 onclick="toggleFaq('faq11')">What skills should a web developer have?</h3>
+            <p id="faq11" class="faqa">A web developer should have a strong understanding of the following skills:
+                Front-end development: This includes languages like HTML, CSS, and JavaScript, as well as libraries and frameworks like React, Vue, and Angular. Front-end developers are responsible for the look, feel, and functionality of the website.
+                Back-end development: This includes languages like Python, Java, PHP, and Ruby, as well as frameworks like Django, Spring, and Rails. Back-end developers are responsible for the server-side logic that powers the website, such as databases, user authentication, and e-commerce.
+                Version control: Version control systems like Git and Mercurial are essential for tracking changes to code and collaborating with other developers.
+                Debugging: Web developers need to be able to debug their code to find and fix errors.
+                Problem-solving: Web developers need to be able to solve problems creatively and efficiently.
+                Kreativan Technologies is a leading digital marketing and web development training company in India. They offer a variety of training programs for both beginners and experienced professionals. Kreativan Technologies’ training programs are designed to help you learn the skills you need to succeed in a career in web development.</p>
+            <h3 onclick="toggleFaq('faq12')">Can I be a digital marketer and web developer?</h3>
+            <p id="faq12" class="faqa">Yes, it is possible to be both a digital marketer and a web developer. In fact, many people find that these two roles complement each other well.
+                Digital marketers are responsible for promoting and growing businesses online. They use a variety of channels, such as search engine optimization (SEO), social media marketing, and email marketing, to reach their target audiences.
+                
+                Web developers are responsible for building and maintaining websites. They use a variety of programming languages and tools to create websites that are both functional and visually appealing.</p>
+            <h3 onclick="toggleFaq('faq13')">Is Digital Marketing a stable carrier?</h3>
+            <p id="faq13" class="faqa">Yes, digital marketing is a stable career. The digital marketing industry is growing rapidly, and there is a high demand for skilled digital marketers. In fact, the Bureau of Labor Statistics projects that the employment of web developers and digital designers will grow 23% from 2020 to 2030, much faster than the average for all occupations.
+
+                There are a number of reasons why digital marketing is a stable career choice. First, digital marketing is essential for businesses of all sizes. In today’s digital world, businesses need to have a strong online presence in order to reach their target audience and grow their business. This means that there is a high demand for digital marketers who can help businesses develop and implement effective digital marketing campaigns.</p>
+            <h3 onclick="toggleFaq('faq14')">
+                How long do digital marketers have to work?</h3>
+                <p id="faq14" class="faqa">Whether or not it is easy to get a job as a digital marketer depends on a number of factors, including your skills and experience, the job market in your area, and the company you are applying to.
+                    However, in general, the digital marketing industry is growing rapidly, and there is a high demand for skilled digital marketers. In fact, the Bureau of Labor Statistics projects that employment of web developers and digital designers will grow 23% from 2020 to 2030, much faster than the average for all occupations.  
+                    This means that there are many opportunities for people to get jobs in digital marketing. However, it is important to have the necessary skills and experience in order to be competitive in the job market.</p>
+           </div>
+        </div>
+        <div id="faqimg" style="width: 50%;"><img src="https://kreativantech.com/wp-content/uploads/2021/04/1130.jpg" alt="" width="110%" height="90%"></div>
+    </div>
+    <h1 style="text-align: center; margin-top:70px;">Among the Top Digital Marketing Companies in North India</h1>
+    <div id="div7">
+        <div style="width: 50%;">
+            <img src="https://kreativantech.com/wp-content/uploads/2023/09/12085316_20944142_11zon-scaled.jpg" alt="" width="80%">
+        </div>
+        <div  style="width: 50%;" id="div8">
+            <p>It all starts with a project feasibility study, and thereafter a team is allocated with an experienced project manager, looking into the critical aspects of software development, testing and final delivery. A custom software that looks into the needs of a client or business, and streamlines the work processes, is what matters the most. Whether it is a highly responsive mobile App development with the best-in-class UI/UX features or a standard company software, it must encompass all the aspects of product & service life-cycle, shopping cart features, and other vital information, as specified by the client. Being the best digital marketing company in Chandigarh, we deliver custom software & mobile application development solutions in an affordable way. </p>
+        </div>
+    </div>
+    <div style="display:flex; justify-content:space-between" id="div9">
+        <p style="font-size: 50px; text-align:center" id="hi">0</p>
+        <p style="font-size: 50px; text-align:center" id="num2">0</p>
+        <p style="font-size: 50px; text-align:center" id="num3">0</p>
+        <p style="font-size: 50px; text-align:center" id="num4">0</p>
+    </div>
+    
+    <div class="div10">
+        <div class="cont">
+            <div class="card">
+                <img src="https://kreativantech.com/wp-content/uploads/2023/10/hand-holding-growth-arrow-with-coins.jpg" alt="">
+                <div class="into">
+                    <h3>What are the factors used to classify social networks for marketers?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque quam illum repudiandae minus repellat natus iusto reprehenderit necessitatibus excepturi.</p>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="https://kreativantech.com/wp-content/uploads/2023/10/hand-holding-growth-arrow-with-coins.jpg" alt="">
+                <div class="into">
+                    <h3>What are the factors used to classify social networks for marketers?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque quam illum repudiandae minus repellat natus iusto reprehenderit necessitatibus excepturi.</p>
+                </div> 
+            </div>
+            <div class="card">
+                <img src="https://kreativantech.com/wp-content/uploads/2023/10/hand-holding-growth-arrow-with-coins.jpg" alt="">
+                <div class="into">
+                    <h3>What are the factors used to classify social networks for marketers?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque quam illum repudiandae minus repellat natus iusto reprehenderit necessitatibus excepturi.</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <footer style="background-color: rgba(169, 184, 195, 0.149); margin-top:90px;">
+        <div id="div20" style="display: flex; justify-content:space-evenly; ">
+            <div class="div21" style="width: 25%; " >
+                <img src="https://kreativantech.com/wp-content/uploads/2023/08/kreativan5-01.png" alt="" width="80%">
+                <p>Empowering the digital frontier through cutting-edge solutions, Kreativan Technologies sparks innovation, drives progress, and shapes a dynamic future with passion, precision, and relentless commitment to excellence. We are the architects of digital transformation. With visionary solutions, we shape tomorrow's world today.</p>
+            </div>
+            <div class="div21" style="width: 25%;">
+               <h2>OUR SERVICES</h2>
+               <h3>Web Development/Designing</h3> 
+                <h3>App Development</h3>
+                <h3>Digital Marketing</h3>
+                <h3>Content Writing</h3>
+                <h3>UX/UI Designing</h3>
+            </div>
+            <div class="div21" style="width: 25%;">
+                <h2>CONTACT US</h2>
+                <h3>Email-Kreativantech@gmail.com</h3>
+                <h3>Address-Aeren Building, Plot No. 14, IT Park Rd, opposite Infosys, Phase - I, Sector 13, Chandigarh, Panchkula, Chandigarh 160101</h3>
+                <h3>Tel-8264470355</h3>
+            </div>
+            <div class="div21" style="width: 25%;">
+                <h2>OUR COMPANY</h2>
+                <h3>Home</h3>
+                <h3>About us</h3>
+                <h3>Services</h3>
+                <h3>Training</h3>
+                <h3>Contact us</h3>
+                <h3>Privacy Policy</h3>
+            </div>
+        </div>
+        <div style="border:1px solid rgb(41, 170, 212);">
+        </div>
+        <div style="display: flex;justify-content:space-between;margin:0 120px; ">
+            <p>Kreativan Technologies</p>
+            <div >
+                <ul style="display: flex; list-style:none;gap:10px" ><li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>  
+                    <li>Training</li>
+                    <li>Placement Drive</li> 
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(answerId) {
+            var answer = document.getElementById(answerId);
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+        
+            let hi = parseInt(document.getElementById("hi").innerHTML);
+            let num = parseInt(document.getElementById("num2").innerHTML);
+            let num3 = parseInt(document.getElementById("num3").innerHTML);
+            let num4 = parseInt(document.getElementById("num4").innerHTML);
+
+            function incrementCounter(elementId) {
+                let count = parseInt(document.getElementById(elementId).innerHTML);
+                if (count < 100) {
+                    const loopFunction = () => {
+                        if (count < 100) {
+                            count++;
+                            document.getElementById(elementId).innerHTML = count;
+                            setTimeout(loopFunction, 100);
+                        }
+                    };
+                    loopFunction();
+                }
+            }
+            
+            window.addEventListener('scroll', function () {
+                let value = window.scrollY;
+                if (value >= 2050) {
+                    incrementCounter("hi");
+                    incrementCounter("num2");
+                    incrementCounter("num3");
+                    incrementCounter("num4");
+                }
+            });
+            
+
+                        
+                        
+    </script>
+</body>
+</html>
